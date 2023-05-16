@@ -1,0 +1,23 @@
+[
+  {
+    "name": "uploadId",
+    "type": "INT"
+  },
+  {
+    "name": "roll",
+    "type": "INT"
+  },
+  {
+    "name": "student_name",
+    "type": "TEXT"
+  },
+  {
+    "name": "marks",
+    "type": "TEXT"
+  },
+  {
+    "name": "visible",
+    "type": "INT",
+    "default": 0
+  }
+]

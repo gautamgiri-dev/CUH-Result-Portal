@@ -1,0 +1,75 @@
+.create__user {
+  padding-top: 1rem;
+  // height: calc(100%);
+  //   background-color: var(--blue-shade);
+}
+
+.create__user_wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+  box-shadow: 0 0 10px var(--blue-shade);
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .user_input_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .user_register_btn {
+    width: 100%;
+    text-align: center;
+    button {
+      width: 150px;
+      background-color: var(--blue);
+      color: var(--white);
+    }
+  }
+}
+
+.manage_user {
+  padding: 20px;
+}
+
+.manage_user_tools {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+
+  a {
+    text-decoration: none;
+  }
+}
+.admin_data_table {
+  box-shadow: 0 0 10px var(--blue-shade);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.reset_pass_box {
+  display: flex;
+  gap: 10px;
+  background-color: var(--blue-shade);
+  padding: 10px;
+  border-radius: 5px;
+
+  span {
+    flex: 1;
+  }
+}
+.reset_pass_consent label {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+  align-items: center;
+  input {
+    width: 15px;
+    height: 18px;
+    margin-top: 0.08em;
+  }
+}

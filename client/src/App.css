@@ -1,0 +1,10 @@
+body {
+  /* background-color: #1B9AAA !important; */
+  height: 100vh;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "session",
+    "type": "INT"
+  },
+  {
+    "name": "semester",
+    "type": "INT"
+  },
+  {
+    "name": "names",
+    "type": "TEXT"
+  },
+  {
+    "name": "codes",
+    "type": "TEXT"
+  },
+  {
+    "name": "department",
+    "type": "INT"
+  },
+  {
+    "name": "programme",
+    "type": "INT"
+  }
+]

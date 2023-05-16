@@ -1,0 +1,41 @@
+[
+  {
+    "name": "eid",
+    "type": "INT",
+    "required": true,
+    "unique": true
+  },
+  {
+    "name": "name",
+    "type": "TEXT",
+    "required": true
+  },
+  {
+    "name": "department",
+    "type": "INT",
+    "required": true
+  },
+  {
+    "name": "role",
+    "type": "INT",
+    "required": true
+  },
+  {
+    "name": "email",
+    "type": "TEXT",
+    "required": true
+  },
+  {
+    "name": "phone",
+    "type": "TEXT"
+  },
+  {
+    "name": "password",
+    "type": "TEXT"
+  },
+  {
+    "name": "status",
+    "type": "INT",
+    "default": 1
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "name": "uploadId",
+    "type": "INT"
+  },
+  {
+    "name": "roll",
+    "type": "INT"
+  },
+  {
+    "name": "student_name",
+    "type": "TEXT"
+  },
+  {
+    "name": "session",
+    "type": "INT"
+  },
+  {
+    "name": "semester",
+    "type": "INT"
+  },
+  {
+    "name": "programme",
+    "type": "INT"
+  },
+  {
+    "name": "department",
+    "type": "INT"
+  },
+  {
+    "name": "marks",
+    "type": "TEXT"
+  },
+  {
+    "name": "visible",
+    "type": "INT",
+    "default": false
+  }
+]

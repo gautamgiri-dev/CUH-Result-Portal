@@ -1,0 +1,24 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --blue: rgb(20, 121, 255);
+  --blue-shade: rgb(230, 241, 255);
+  --dark-blue: #193b68;
+
+  --white: #fffeee;
+
+  --box-shadow-blue: rgb(20,121,255,0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

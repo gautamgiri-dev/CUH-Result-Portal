@@ -1,0 +1,31 @@
+[
+  {
+    "name": "name",
+    "type": "TEXT"
+  },
+  {
+    "name": "hod",
+    "type": "INT"
+  },
+  {
+    "name": "programme",
+    "type": "INT"
+  },
+  {
+    "name": "session",
+    "type": "INT"
+  },
+  {
+    "name": "semester",
+    "type": "INT"
+  },
+  {
+    "name": "uploadedOn",
+    "type": "TEXT"
+  },
+  {
+    "name": "status",
+    "type": "INT",
+    "default": -1
+  }
+]

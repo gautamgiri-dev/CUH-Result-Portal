@@ -1,0 +1,9 @@
+{
+  "DEVELOPMENT": true,
+  "DIRS": {
+    "UPLOAD-DIR": "uploads",
+    "RESULT-DIR": "results",
+    "DEV-ASSETS-DIR": "dev-assets"
+  },
+  "DATABASE-PATH": "test.db"
+}

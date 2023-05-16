@@ -1,0 +1,11 @@
+[
+  {
+    "name": "name",
+    "type": "TEXT",
+    "required": true
+  },
+  {
+    "name": "department",
+    "type": "INT"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "school",
+    "type": "INT",
+    "required": true
+  },
+  {
+    "name": "name",
+    "type": "TEXT",
+    "required": true
+  }
+]

@@ -1,0 +1,98 @@
+.faculty-login {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--blue-shade);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark-blue);
+
+  .wrapper {
+    display: flex;
+    width: 60%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(20, 121, 255, 0.5);
+
+    .login-left-container {
+      background-color: #ffffff;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      .login_back_home {
+        text-decoration: none;
+        position: absolute;
+        // background-color: #d2d0dd;
+        line-height: 1.6;
+        border-radius: 5px;
+        top: 2%;
+        left: 2%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 15px;
+        padding-left: 8px;
+
+        &:hover {
+          background-color: var(--blue-shade);
+        }
+      }
+
+      .login-greeting {
+        margin-bottom: 2rem;
+        h1 {
+          line-height: 1.6;
+          font-size: 2rem;
+          font-weight: 500;
+          margin: 0;
+          padding: 0;
+          color: var(--blue-dark) !important;
+        }
+
+        span {
+          color: #7f7f7f;
+        }
+      }
+      .data {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .InputBox__container {
+        width: 300px;
+      }
+      input {
+        border: 1px solid var(--blue);
+      }
+    }
+
+    .login-right-container {
+      flex: 1;
+      background-color: var(--blue);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      margin: 10px;
+      border-radius: 5px;
+
+      img {
+        height: 150px;
+        width: 150px;
+        filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
+          drop-shadow(-7px -7px 6px rgba(0, 0, 0, 0.2));
+      }
+      span {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #fff;
+      }
+    }
+  }
+}

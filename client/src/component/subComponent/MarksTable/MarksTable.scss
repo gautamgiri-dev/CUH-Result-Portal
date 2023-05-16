@@ -1,0 +1,25 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  
+
+  .filter {
+    display: flex;
+    align-items: center;
+    background-color: var(--blue-shade);
+    padding: 0 8px;
+    border-radius: 4px;
+    input {
+      border: none;
+      outline: none;
+      background-color: var(--blue-shade);
+      padding: 8px;
+      width: 80%;
+    }
+    label{
+        font-size: 13px;
+    }
+  }
+}

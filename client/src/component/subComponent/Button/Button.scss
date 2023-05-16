@@ -1,0 +1,18 @@
+.button_container {
+  margin-top: 1rem;
+}
+.button {
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  font: 400 11px system-ui;
+  padding: 1px 7px 2px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  user-select: none;
+}

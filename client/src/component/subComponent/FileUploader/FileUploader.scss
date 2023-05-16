@@ -1,0 +1,34 @@
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border-radius: 10px;
+  border: 3.5px dashed var(--blue);
+  padding: 2rem;
+  h1 {
+    color: var(--blue);
+  }
+  span {
+    margin-top: 0.2rem;
+    font-size: 1.125rem;
+    color: var(--dark-blue);
+  }
+}
+
+.active {
+  background-color: var(--dark-blue);
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: var(--blue-shade);
+  color: var(--blue);
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: medium;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.InputBox__container {
+  display: grid;
+  // row-gap: 5px;
+  border-radius: 4px;
+  // box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+
+  .InputBox__label {
+    font-size: 0.9rem;
+  }
+  input,
+  select {
+    border: none;
+    outline: none;
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+    font-size: 16px;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    line-height: 1.6;
+  }
+
+  input {
+    &::placeholder {
+    }
+  }
+}
